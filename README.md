@@ -1,24 +1,23 @@
-# README
+# Learn By Example: Rails on Docker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My 'Learn By Example' repositories document concepts in a few easy to reference commits
 
-Things you may want to cover:
+## Running the app
 
-* Ruby version
+```
+docker-compose up
+```
 
-* System dependencies
+## Commits
 
-* Configuration
+### Initial Commit
 
-* Database creation
+Vanilla install of Rails 6.1 with the `--database=postgresql` flag
 
-* Database initialization
+### Dockerise
 
-* How to run the test suite
+Added
+ - `README.md`
+ - `Dockerfile`
+ - `docker-compose.yml`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
